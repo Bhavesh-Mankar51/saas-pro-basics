@@ -2,13 +2,16 @@
 <html lang="en">
 <head>
     <title>{{ page_title }}</title>
+    {% include "base/css.html" %}
 </head>
 <body>
+    {% include "nav/navbar.html" %}
     <header>
         <h1>LaunchBase</h1>
     </header>
 
     <main>
+        
         <h2>{{ page_title }} of base</h2>
         {% block content %}
         <!-- Child templates will inject content here -->
@@ -18,5 +21,6 @@
     <footer>
         <p>&copy; 2025 LaunchBase</p>
     </footer>
+    {% include "base/js.html" %}
 </body>
 </html>

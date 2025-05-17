@@ -1,6 +1,10 @@
 .DS_Store
 venv/
+src/staticfiles/vendors
 
+
+
+local-cdn/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
